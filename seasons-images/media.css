@@ -1,0 +1,129 @@
+html, body{
+  margin: 0
+  padding:0
+}
+
+#wrap {
+  margin:0 auto;
+  width: 100%;
+}
+header, section, nav, footer{
+  background: white;
+}
+header{
+  background-color: lightblue;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+}
+
+nav{
+  background-color: lightgreen;
+  padding: 10px;
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color:  blue;
+  padding: 20px;
+}
+
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+section{
+  background-color: lightblue;
+  overflow: auto;
+}
+aside{
+
+  width: 25%;
+  float: left;
+  padding: 2% 0% 2% 0%;
+}
+
+aside a{
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+}
+
+aside a:hover{
+  background-color: red;
+}
+
+aside a{
+  padding:10px;
+}
+
+aside li{
+  list-style-type: none;
+}
+
+aside ul{
+padding: 0;
+margin: 0;
+}
+
+
+article{
+  background-color: lightblue;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+
+footer{
+  background-color: plum;
+  padding: 2%;
+}
+
+.yesbird{
+  width: 35%;
+  float: right;
+  margin: 0 0 20px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#wrap{
+  width: 100%;
+}
+nav li{
+  display: inline;
+}
+
+
+nav a{
+  display:inline-block;
+  padding: 10px;
+}
+
+aside, article{
+  float: none;
+  width: 91%;
+}
+.yesbird{
+  float: none;
+  width:90%;
+  margin: 10px;
+}
