@@ -1,0 +1,89 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+</style>
+
+
+html, body {
+  margin: 0
+  padding: 0;
+  background: #ddd url("flag.jpg") no-repeat center top fixed;
+  background-size: cover;
+}
+
+#wrap {
+  margin:0 auto;
+  width: 100%;
+}
+
+header, nav, section, footer{
+  background: white;
+}
+
+header{
+  text-align: center;
+  position: relative;
+}
+
+
+
+header h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+section{
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+}
+
+/*.one,.two,.three{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.two{
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*position: relative;
+  top: 20px;
+  right: 40px;
+}
+
+.three{
+  z-index:
+}*/
+
+figure {
+background: black;
+width: 29%;
+padding: 1%;
+float: left;
+margin: 1%;
+}
+
+figure img{
+  width: 100%;
+}
+
+figcaption {
+  color: white;
+  text-align: center;
+  font-family: arial;
+}
+
+footer {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  align-content: center;
+}
+
+nav{
+  font-family: 'Roboto Slab', serif;
+}
