@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NN6P1JTJEQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NN6P1JTJEQ');
+</script>
+    <meta charset="utf-8">
+    <title>slideshow</title>
+
+    <link rel="stylesheet" href="dark.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" rel="stylesheet" type"text/css">
+    <link href="media.css" rel="stylesheet" type"text/css">
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+      Gunsarecool.org
+    </header>
+
+      <nav>
+        <ul>
+          <li><a href="finalindex.html">Home</a></li>
+            <li><a href="slideshow.html">Big Guns</a></li>
+              <li><a href="sandbox.html">Small Guns</a></li>
+                <li><a href="location.html">Locations</a></li>
+                  <li><a href="form.html">Contact</a></li>
+        </ul>
+        </nav>
+
+
+    <section>
+      <div class="slider-wrapper theme-dark">
+          <div id="slider" class="nivoSlider">
+              <img src="tank.jpg" data-thumb="tank.jpg" alt="tank" title="Tank" />
+              <img src="rpg.jpg" data-thumb="rpg.jpg" alt="rpg" title="RPG"/>
+              <img src="cannon.jpg" data-thumb="cannon.jpg" alt="cannon" Title="Cannon" data-transition="slideInLeft"/>
+              <img src="gatlin.jpg" data-thumb="gatlin.jpg" alt="gatlin" title="Gatlin Gun"/>
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+
+          </div>
+      </div>
+    </section>
+
+    <footer>
+    These are some Big guns.
+    </footer>
+
+
+    </div> <!--wrap-->
+    <script type="text/javascript" src="slideshowfolder/scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+  </body>
+</html>
